@@ -1,6 +1,8 @@
 import random
 
 choice=["Rock","Paper","Scissor"]
+print("Welcome to Rock, Paper, Scissors!")
+print("Rock beats Scissors , Scissors beats Paper , Paper beats Rock.")
 while True:
     try:
         ui=int(input("Enter 0 for Rock , 1 for Paper and 2 for Scissor : "))
